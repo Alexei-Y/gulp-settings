@@ -1,4 +1,4 @@
-/* ========== null ========== */
+/* ========== RE-DEFAULT SETTINGS ========== */
 *,
 *::before,
 *::after {
@@ -6,9 +6,6 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-:focus,:active{outline: none;}
-a:focus,a:active{outline: none;}
 
 html,body{
 	height: 100%;
@@ -75,6 +72,23 @@ select {
   font: inherit;
 }
 
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+// VISUALLY-HIDDEN
+
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+}
 
 
 
